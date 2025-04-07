@@ -7,7 +7,7 @@ import json
 app = Flask(__name__)
 CORS(app)
 
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 MODEL = "meta-llama/llama-4-maverick:free" 
 
 def extract_json_array(text):
@@ -43,6 +43,7 @@ Please return a JSON array like [\"sentence/keywords 1\", ..., \"sentence/keywor
     )
 
     try:
+        print("LLM响应状态码:", response.status_code)
         raw_text = response.json()["choices"][0]["message"]["content"]
         print("LLM返回原始内容:", raw_text)
 
