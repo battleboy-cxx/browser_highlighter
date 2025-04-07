@@ -22,4 +22,4 @@ This extension does NOT collect or store any personal information from users.
 - Host permissions are used only to access page content the user is currently viewing.
 - No user activity or interaction is logged.
 
-If you have any questions about this policy, please contact us at: yourname@example.com
+If you have any questions about this policy, please contact us at: battleboy.cxx@gmail.com
