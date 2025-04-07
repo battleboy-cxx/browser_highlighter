@@ -2,7 +2,7 @@
     const text = extractCleanText();
   
     try {
-      const response = await fetch("http://localhost:5001/highlight", {
+      const response = await fetch("https://browser-highlighter.onrender.com/highlight", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
